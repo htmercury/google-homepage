@@ -1,9 +1,58 @@
-/*
-resets browser's default stylesheet / user agent stylesheet
-*/
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* resets browser's default stylesheet / user agent stylesheet*/
+    padding: 0; 
+    border: 1px solid rgba(0,0,0,0.3); /*box model designing */
+    font-family: Arial; /* standard font Google uses */
+    box-sizing: border-box; /* eliminate issue of dimensions in the box model */
 }
 
+
+
+.navbar {
+    border: 1px solid blue;
+    height: 100px;
+    width: 100%
+}
+
+.nav-button {
+    float:right;
+    padding: 20px;
+}
+
+
+.content {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.google-logo {
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.search-interface {
+    width: 550px;
+    height: 200px;
+    margin: auto;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    display: block;
+}
+
+.search {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.s-button {
+    margin: 0px 5px;
+}
