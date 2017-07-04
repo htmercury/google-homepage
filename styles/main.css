@@ -1,0 +1,9 @@
+/*
+resets browser's default stylesheet / user agent stylesheet
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
