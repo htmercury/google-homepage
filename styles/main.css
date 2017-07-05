@@ -11,6 +11,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    background-image:
 }
 
 .navbar {
@@ -19,9 +20,34 @@ html, body {
 
 .nav-button {
     float:right;
-    padding: 5px 10px;
+    margin: 22px 10px;
     color: rgb(75,75,75);
     text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+#sign-in {
+        background: #4385f4;
+        margin: 14px 10px;
+        margin-right: 30px;
+        padding: 8px 14px;
+        color: #fff;
+        font-weight: 500;
+        border-radius: 3px;
+        text-decoration: none;
+}
+
+.google-apps {
+    display: block;
+    position: relative;
+    bottom: 5px;
+    margin: 22px 5px;
+    width: 25px;
+    height: 25px;
 }
 
 
@@ -44,11 +70,42 @@ html, body {
     margin: auto;
 }
 
+.search-box {
+    border: 1px solid #f2f2f2;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 
+        0 1px 3px rgba(0,0,0,0.16),
+        0 0 0 1px rgba(0,0,0,0.08);
+    width: 600px;
+    height: 40px;
+}
+
+.search-box:hover {
+    box-shadow: 
+        0 3px 4px rgba(0,0,0,0.16),
+        0 0 1px 2px rgba(0,0,0,0.08);
+}
+
 .search-bar {
-    width: 100%;
+    position: relative;
+    width: 90%;
     padding: 10px 15px;
     font-size: 15px;
     display: block;
+    border: none;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.mic-icon {
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+    height: 30px;
+    float: right;
 }
 
 .search {
@@ -60,33 +117,69 @@ html, body {
 
 .s-button {
     margin: 0px 5px;
-    font-size: 15px;
+    font-size: 13px;
+    color: #848689;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    /*letter-spacing: 0.5px;*/
+    font-weight: bold;
+    border: 1px solid #e4e4e4;
+}
+
+.s-button:hover {
+    border-color: #76797c;
+    color: black;
+    box-shadow: 
+        0 1px 3px rgba(0,0,0,0.16),
+        0 0 0 1px rgba(0,0,0,0.08);
 }
 
 footer {
     position: absolute;
     width: 100%;
     bottom: 0px;
-    height: 40px;
+    height: 45px;
     clear: both;
+    background-color: #f2f2f2;
+    border: 1px solid;
+    border-top-color: #e4e4e4;
 }
 
 .f-left {
     float: left;
-    padding:10px 0px 0px 0px;
+    padding:10px 0px;
+    height: 100%;
 }
 
 .f-right {
     float: right;
-    padding:10px 0px 0px 0px;
+    padding:10px 0px;
 }
 
 .footr {
-    margin-top: -20px;
+    vertical-align: center;
     display: inline-block;
+    color: rgb(75,75,75);
+    text-decoration: none;
+    font-size: small;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+.footr:hover {
+    text-decoration: underline
 }
 
 .footl {
-    margin-top: -20px;
+    vertical-align: center;
     display: inline-block;
+    color: rgb(75,75,75);
+    text-decoration: none;
+    font-size: small;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.footl:hover {
+    text-decoration: underline
 }
