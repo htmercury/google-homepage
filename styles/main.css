@@ -9,13 +9,15 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100%; /* enables html box to cover entire webpage */
     margin: 0;
-    background-image:
+    background-image:url("../images/adwaita-day.jpg");
 }
 
+/* Top Section of Google Homepage */
+
 .navbar {
-    height: 10%;
+    height: 8%;
 }
 
 .nav-button {
@@ -50,6 +52,7 @@ html, body {
     height: 25px;
 }
 
+/* Middle Section of Google Homepage */
 
 .content {
     margin-top: 20px;
@@ -75,7 +78,7 @@ html, body {
     background: #fff;
     border-radius: 2px;
     box-shadow: 
-        0 1px 3px rgba(0,0,0,0.16),
+        0 1px 3px rgba(0,0,0,0.16), /* Adds on a glowy effect */
         0 0 0 1px rgba(0,0,0,0.08);
     width: 600px;
     height: 40px;
@@ -133,6 +136,8 @@ html, body {
         0 1px 3px rgba(0,0,0,0.16),
         0 0 0 1px rgba(0,0,0,0.08);
 }
+
+/* Bottom Section of Google Homepage */
 
 footer {
     position: absolute;
