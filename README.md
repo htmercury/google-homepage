@@ -6,4 +6,4 @@ The links don't go anywhere and the search box doesn't do anything when you subm
 The goal was to start thinking about how elements get placed on the page and roughly how they get styled and aligned.
 
 ## To see the project, 
-##    please visit https://htmercury.github.io/google-homepage
+###    please visit https://htmercury.github.io/google-homepage
