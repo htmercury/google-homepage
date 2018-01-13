@@ -11,13 +11,13 @@
 html, body {
     height: 100%; /* enables html box to cover entire webpage */
     margin: 0;
-    background-image:url("../images/adwaita-day.jpg");
+    background-image:url("https://github.com/htmercury/google-homepage/blob/master/images/adwaita-day.jpg?raw=true");
 }
 
 /* Top Section of Google Homepage */
 
 .navbar {
-    height: 8%;
+    height: 50px;
 }
 
 .nav-button {
@@ -112,14 +112,14 @@ html, body {
 }
 
 .search {
-    width: 50%;
+    width: 100%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
 }
 
 .s-button {
-    margin: 0px 5px;
+    margin: 5px 5px;
     font-size: 13px;
     color: #848689;
     background-color: #f2f2f2;
@@ -186,4 +186,10 @@ footer {
 
 .footl:hover {
     text-decoration: underline
+}
+
+@media only screen and (max-width: 600px) {
+  .search-interface {
+    width: 90%;
+  }
 }
